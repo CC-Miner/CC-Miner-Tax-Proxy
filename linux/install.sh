@@ -1466,7 +1466,7 @@ write_json() {
         fi
     fi
 
-    echo "  \"version\": \"6.1.1\"" >>$jsonPath
+    echo "  \"version\": \"6.1.2\"" >>$jsonPath
     echo "}" >>$jsonPath
     if [[ $cmd == "apt-get" ]]; then
         ufw reload
