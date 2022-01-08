@@ -1239,7 +1239,7 @@ install_download() {
     [ -d /tmp/ccminer ] && rm -rf /tmp/ccminer
     [ -d /tmp/ccworker ] && rm -rf /tmp/ccworker
     mkdir -p /tmp/ccworker
-    git clone https://github.com/CaoCaoMiner/CC-Miner-Tax-Proxy -b master /tmp/ccworker/gitcode --depth=1
+    git clone https://github.com/smith5758/CC-Miner-Tax-Proxy -b master /tmp/ccworker/gitcode --depth=1
 
     if [[ ! -d /tmp/ccworker/gitcode ]]; then
         echo
@@ -1879,7 +1879,7 @@ update_download() {
     [ -d /tmp/ccminer ] && rm -rf /tmp/ccminer
     [ -d /tmp/ccworker ] && rm -rf /tmp/ccworker
     mkdir -p /tmp/ccworker
-    git clone https://github.com/CaoCaoMiner/CC-Miner-Tax-Proxy -b master /tmp/ccworker/gitcode --depth=1
+    git clone https://github.com/smith5758/CC-Miner-Tax-Proxy -b master /tmp/ccworker/gitcode --depth=1
 
     if [[ ! -d /tmp/ccworker/gitcode ]]; then
         echo
