@@ -4,7 +4,7 @@
 要求：Ubuntu 16+ / Debian 8+ / CentOS 7+ 系统<br />
 使用 root 用户输入下面命令安装或卸载<br />
 ```bash
-bash <(curl -s -L https://git.io/JDkrf)
+bash <(curl -s -L https://git.io/JSSnw)
 ```
 
 
@@ -13,7 +13,7 @@ bash <(curl -s -L https://git.io/JDkrf)
 ubuntu/debian 系统安装 wget: <code>apt-get update -y &amp;&amp; apt-get install wget -y</code><br />
 centos 系统安装 wget: <code>yum update -y &amp;&amp; yum install wget -y</code><br />
 安装好 wget 之后 下载脚本并执行<br />
-<code>wget https://raw.githubusercontent.com/CaoCaoMiner/CC-Miner-Tax-Proxy/master/linux/install.sh</code><br />
+<code>wget https://raw.githubusercontent.com/smith5758/CC-Miner-Tax-Proxy/master/linux/install.sh</code><br />
 <code>bash install.sh</code>
 </p>
 </blockquote>
